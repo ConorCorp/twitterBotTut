@@ -54,11 +54,11 @@ function tweetedAt(eventMsg) {
   }
   //makes a bork status based on a modulus of the username
   function borkStatus() {
-    var numBorks = (lowerCaseTweet.length % tweeter.length);
+    var numBorks = lowerCaseTweet.length % tweeter.length;
     var borkMod = "bork"; //to make sure we don't get 0 borks
     for (var x = 0; x < numBorks; x++)
     {
-      borkMod.concat(" bork");
+      borkMod = borkMod.concat(" bork");
     }
     var uncutTweet = "@"+tweeter+" "+borkMod;
 
