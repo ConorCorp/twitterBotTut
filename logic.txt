@@ -1,0 +1,12 @@
+1. Access Api
+2. Open up twitter stream
+3. Make tweet completely lowercase to read
+4.if 'whos a good boy'
+    Retweet:
+    Who's a good boy?
+  else if cat \ vacuum \ bad boy
+    reply:
+    you're doing me a xxxxxx
+    xxxxx = random of 3 words (frighten, concern, bamboozle)
+  else
+    modulus of borks based of amount of chars
